@@ -1,0 +1,180 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('fitness.jpeg'); 
+    height: 2454px;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.left{
+/*border: 3px solid red;*/
+display: inline-block;
+position: absolute;
+left:34px;
+top:22px;
+}
+
+.left img{
+ width: 98px;
+ filter: invert();
+
+
+
+}
+.mid{
+/*border: 3px  solid  white;*/
+display: block;
+width: 42%;
+margin: 22px auto;
+
+}
+.right{
+/*border: 3px  solid  green;*/
+display: inline-block;
+position: absolute;
+right:34px;
+top:22px;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.container{
+    border: 2px solid yellow;
+    margin: 128px 112px;
+    padding: 89px 39px;
+    width: 33%;
+    border-color: white;
+    border-radius: 12px;
+}
+
+.navbar li{
+ color: white;
+    display: inline-block;
+    font-size: 13px;
+}
+
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 13px;
+}
+
+.navbar li a:hover {
+    color: rgb(139, 136, 136);
+    text-decoration: underline;
+}
+
+.btn{
+    margin: 0px 5px;
+    padding: 3PX  9PX;
+    border-radius: 13px;
+    cursor: pointer;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.btn:hover{
+    background-color: rgb(196, 190, 190);
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 358px;
+    padding: 1px;
+    border: 4px solid  black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+    font-family:'Balsamiq Sans', cursive;
+}
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 35%;
+    margin: 27px auto;
+    background-color: rgb(202, 185, 185)
+}
+
+.container2{
+    /*border: 1px solid blue;*/
+    margin: 122px 20px;
+    padding: 55px 40px;
+    width: 91%;
+}
+.container2 h1 {
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+}
+.container3{
+    /*border: 1px solid rgb(58, 63, 47);*/
+    margin: 117px 98px;
+    padding: 22px 30px;
+    width:80%;
+
+}
+
+.container4{
+   /* border: 1px solid red;*/
+    padding-top: 20px 20px;
+    margin: 28px -68px;
+    height: 5% ;
+    width: 50%;
+}
+
+.container4 a {
+     color: white;
+     text-decoration: none;
+     cursor: pointer;
+}
+ .container4 a:hover {
+    color: rgb(139, 136, 136);
+    text-decoration: underline;
+}
+
+
+#footer{
+
+        position:fixed;
+        padding: 10px 10px 0px 10px;
+        bottom: 0;
+        width: 100%;
+        /* Height of the footer*/ 
+        height: 50px;
+        background: #000000;
+        margin: 0px -128px;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
